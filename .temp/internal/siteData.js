@@ -30,30 +30,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "about,",
-      "frontmatter": {
-        "title": "about,"
-      },
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-5c9895dd",
-      "path": "/about/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题1.html",
-          "slug": "标题1-html"
-        },
-        {
-          "level": 2,
-          "title": "标题2.html",
-          "slug": "标题2-html"
-        }
-      ],
-      "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -85,14 +61,14 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650637376000
     },
     {
-      "title": "about2",
+      "title": "about---a",
       "frontmatter": {
-        "title": "about2"
+        "title": "about---a"
       },
-      "regularPath": "/about2.html",
-      "relativePath": "about2.md",
-      "key": "v-4fcc3191",
-      "path": "/about2.html",
+      "regularPath": "/about/a.html",
+      "relativePath": "about/a.md",
+      "key": "v-3a59307c",
+      "path": "/about/a.html",
       "headers": [
         {
           "level": 2,
@@ -147,38 +123,14 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650637376000
     },
     {
-      "title": "about1",
+      "title": "about,",
       "frontmatter": {
-        "title": "about1"
+        "title": "about,"
       },
-      "regularPath": "/about1.html",
-      "relativePath": "about1.md",
-      "key": "v-6c857b13",
-      "path": "/about1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题1.html",
-          "slug": "标题1-html"
-        },
-        {
-          "level": 2,
-          "title": "标题2.html",
-          "slug": "标题2-html"
-        }
-      ],
-      "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
-    },
-    {
-      "title": "about---a",
-      "frontmatter": {
-        "title": "about---a"
-      },
-      "regularPath": "/about/a.html",
-      "relativePath": "about/a.md",
-      "key": "v-3a59307c",
-      "path": "/about/a.html",
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-5c9895dd",
+      "path": "/about/",
       "headers": [
         {
           "level": 2,
@@ -203,6 +155,54 @@ export const siteData = {
       "relativePath": "about/bbb.md",
       "key": "v-05724c62",
       "path": "/about/bbb.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题1.html",
+          "slug": "标题1-html"
+        },
+        {
+          "level": 2,
+          "title": "标题2.html",
+          "slug": "标题2-html"
+        }
+      ],
+      "lastUpdated": "2022-04-22 10:22:56",
+      "lastUpdatedTimestamp": 1650637376000
+    },
+    {
+      "title": "about2",
+      "frontmatter": {
+        "title": "about2"
+      },
+      "regularPath": "/about2.html",
+      "relativePath": "about2.md",
+      "key": "v-4fcc3191",
+      "path": "/about2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题1.html",
+          "slug": "标题1-html"
+        },
+        {
+          "level": 2,
+          "title": "标题2.html",
+          "slug": "标题2-html"
+        }
+      ],
+      "lastUpdated": "2022-04-22 10:22:56",
+      "lastUpdatedTimestamp": 1650637376000
+    },
+    {
+      "title": "about1",
+      "frontmatter": {
+        "title": "about1"
+      },
+      "regularPath": "/about1.html",
+      "relativePath": "about1.md",
+      "key": "v-6c857b13",
+      "path": "/about1.html",
       "headers": [
         {
           "level": 2,
