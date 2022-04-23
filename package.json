@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
-    "deploy":"bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.9.7",
     "vuepress": "^1.9.7"
   },
   "dependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "moment": "^2.29.3"
   }
 }

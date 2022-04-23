@@ -26,6 +26,63 @@ export const siteData = {
         "name": "keywords",
         "content": "vue[ress介绍，啥啥啥"
       }
+    ],
+    [
+      "link",
+      {
+        "rel": "manifest",
+        "href": "/docs/manifest.json"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "theme-color",
+        "content": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-status-bar-style",
+        "content": "black"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "apple-touch-icon",
+        "href": "/docs/icons/apple-touch-icon-152x152.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "mask-icon",
+        "href": "/docs/icons/safari-pinned-tab.svg",
+        "color": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileImage",
+        "content": "/icons/msapplication-icon-144x144.png"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileColor",
+        "content": "#000000"
+      }
     ]
   ],
   "pages": [
@@ -57,6 +114,13 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-3b10cf2c",
       "path": "/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "pwa",
+          "slug": "pwa"
+        }
+      ],
       "lastUpdated": "2022-04-22 10:22:56",
       "lastUpdatedTimestamp": 1650637376000
     },
@@ -69,44 +133,6 @@ export const siteData = {
       "relativePath": "about/a.md",
       "key": "v-3a59307c",
       "path": "/about/a.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题1.html",
-          "slug": "标题1-html"
-        },
-        {
-          "level": 2,
-          "title": "标题2.html",
-          "slug": "标题2-html"
-        }
-      ],
-      "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
-    },
-    {
-      "title": "about---c",
-      "frontmatter": {
-        "0": "t",
-        "1": "i",
-        "2": "t",
-        "3": "l",
-        "4": "e",
-        "5": ":",
-        "6": "a",
-        "7": "b",
-        "8": "o",
-        "9": "u",
-        "10": "t",
-        "11": "-",
-        "12": "-",
-        "13": "-",
-        "14": "c"
-      },
-      "regularPath": "/about/c.html",
-      "relativePath": "about/c.md",
-      "key": "v-f0de55fc",
-      "path": "/about/c.html",
       "headers": [
         {
           "level": 2,
@@ -171,14 +197,28 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650637376000
     },
     {
-      "title": "about2",
+      "title": "about---c",
       "frontmatter": {
-        "title": "about2"
+        "0": "t",
+        "1": "i",
+        "2": "t",
+        "3": "l",
+        "4": "e",
+        "5": ":",
+        "6": "a",
+        "7": "b",
+        "8": "o",
+        "9": "u",
+        "10": "t",
+        "11": "-",
+        "12": "-",
+        "13": "-",
+        "14": "c"
       },
-      "regularPath": "/about2.html",
-      "relativePath": "about2.md",
-      "key": "v-4fcc3191",
-      "path": "/about2.html",
+      "regularPath": "/about/c.html",
+      "relativePath": "about/c.md",
+      "key": "v-f0de55fc",
+      "path": "/about/c.html",
       "headers": [
         {
           "level": 2,
@@ -206,6 +246,30 @@ export const siteData = {
       "headers": [
         {
           "level": 2,
+          "title": "标题1.html 哈哈哈哈哈哈",
+          "slug": "标题1-html-哈哈哈哈哈哈"
+        },
+        {
+          "level": 2,
+          "title": "标题2.html",
+          "slug": "标题2-html"
+        }
+      ],
+      "lastUpdated": "2022-04-22 10:22:56",
+      "lastUpdatedTimestamp": 1650637376000
+    },
+    {
+      "title": "about2",
+      "frontmatter": {
+        "title": "about2"
+      },
+      "regularPath": "/about2.html",
+      "relativePath": "about2.md",
+      "key": "v-4fcc3191",
+      "path": "/about2.html",
+      "headers": [
+        {
+          "level": 2,
           "title": "标题1.html",
           "slug": "标题1-html"
         },
@@ -229,7 +293,6 @@ export const siteData = {
       {
         "text": "aboout",
         "link": "/about/",
-        "target": "_blank",
         "rel": ""
       },
       {

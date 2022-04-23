@@ -9,42 +9,64 @@ module.exports = {
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["meta", { name: "author", content: "HJJ" }],
     ["meta", { name: "keywords", content: "vue[ress介绍，啥啥啥" }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: '/icons/128x128.png' }],
-    ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icons/144x144.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
-  ],
-  plugins: [
+    ["link", { rel: "manifest", href: "/manifest.json" }],
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
-      "@vuepress/last-updated",
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
+    [
+      "link",
+      { rel: "apple-touch-icon", href: "/icons/apple-touch-icon-152x152.png" },
+    ],
+    [
+      "link",
       {
-        transformer: (timestamp, lang) => {
-          return moment(timestamp).format("Y-MM-DD h:mm:ss");
-        },
+        rel: "mask-icon",
+        href: "/icons/safari-pinned-tab.svg",
+        color: "#3eaf7c",
       },
     ],
     [
-      "@vuepress/pwa",
+      "meta",
       {
-        serviceWorker: true,
-        updatePopup: {
-          message: "发现新内容可用",
-          buttonText: "刷新",
-        },
+        name: "msapplication-TileImage",
+        content: "/icons/msapplication-icon-144x144.png",
       },
     ],
+    ["meta", { name: "msapplication-TileColor", content: "#000000" }],
   ],
+  plugins: {
+    "@vuepress/last-updated": {
+      transformer: (timestamp, lang) =>  moment(timestamp).format("Y-MM-DD h:mm:ss")
+    },
+    "@vuepress/pwa": {
+      serviceWorker: true,
+      updatePopup: {
+        message: "发现新内容可用",
+        buttonText: "刷新",
+      },
+    },
+    "@vssue/vuepress-plugin-vssue": {
+      // 设置 `platform` 而不是 `api`
+      platform: "github-v4",
+
+      // 其他的 Vssue 配置
+      owner: "jiajia-hjj",
+      repo: "docs",
+      clientId: "35497241f274868c06ca",
+      clientSecret: "dfedfa2f44ca6709229ab5fcee012e30cec8f345",
+      autoCreateIssue:true
+    },
+  },
   themeConfig: {
     lastUpdated: "更新时间", // string | boolean
     //   logo: '/assets/img/logo.png',
     // 导航
     nav: [
       { text: "Home", link: "/" },
-      { text: "aboout", link: "/about/", target: "_blank", rel: "" },
+      { text: "aboout", link: "/about/", rel: "" },
       { text: "my", link: "https://google.com" },
     ],
     // sidebar:true,
