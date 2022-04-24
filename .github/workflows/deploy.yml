@@ -1,5 +1,8 @@
 name: A TO A:GH_PAGES
-on: [push]
+on: 
+  push:
+    branches:
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -16,7 +19,7 @@ jobs:
         # 构建结果存储的分支
         TARGET_BRANCH: gh_pages
         # 要使用的构建命令
-        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_SCRIPT: yarn && yarn install && yarn docs:build
         # 构建结果存储目录
         BUILD_DIR: docs/.vuepress/dist/
  
