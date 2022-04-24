@@ -44,13 +44,13 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         env:
          # 部署到你的目标仓库，这里就是你的仓库名
           REPO: git@github.com:jiajia-hjj/docs.git
           # 部署到 gh-pages 分支
           BRANCH: gh-pages
           # 部署目录为 VuePress 的默认输出目录
-          FOLDER: docs/.vuepress/dist
+          folder: build # The folder the action should deploy.
           # 当前仓库的密钥
           SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
