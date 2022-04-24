@@ -64,7 +64,7 @@ name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -78,4 +78,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
-        BUILD_SCRIPT: npm ci && npm run docs:build
+        BUILD_SCRIPT: npm install && npm run build
