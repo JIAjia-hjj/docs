@@ -51,6 +51,6 @@ jobs:
           # 部署到 gh-pages 分支
           BRANCH: gh-pages
           # 部署目录为 VuePress 的默认输出目录
-          folder: build # The folder the action should deploy.
+          FOLDER: docs/.vuepress/dist
           # 当前仓库的密钥
           SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
