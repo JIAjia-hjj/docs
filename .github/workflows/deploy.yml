@@ -13,8 +13,8 @@ jobs:
           persist-credentials: false
       - name: install and build
         run:|         // 这里执行 安装 打包
-          yarn install
-          yarn docs:build
+          npm install
+          npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.5.9  // 引用别人的部署插件
