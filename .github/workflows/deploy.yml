@@ -121,13 +121,9 @@ jobs:
           persist-credentials: false
       - name: Install and Build
         run: |
-          npm ci
-          npm run docs:build
-          cd docs/.vuepress/dist
-      - name: Install and Build
-        run: |
           yarn install
           yarn docs:build
+          cd docs/.vuepress/dist
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
