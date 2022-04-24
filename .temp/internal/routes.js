@@ -49,6 +49,14 @@ export const routes = [
     },
   },
   {
+    name: "v-6c857b13",
+    path: "/about1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6c857b13").then(next)
+    },
+  },
+  {
     name: "v-f0de55fc",
     path: "/about/c.html",
     component: GlobalLayout,
@@ -57,11 +65,11 @@ export const routes = [
     },
   },
   {
-    name: "v-6c857b13",
-    path: "/about1.html",
+    name: "v-6e4ba0af",
+    path: "/article.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6c857b13").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6e4ba0af").then(next)
     },
   },
   {

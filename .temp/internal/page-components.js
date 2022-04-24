@@ -6,7 +6,8 @@ export default {
   "v-3a59307c": () => import("C:\\Users\\HJJ\\Desktop\\vuepress\\docs2\\docs\\about\\a.md"),
   "v-5c9895dd": () => import("C:\\Users\\HJJ\\Desktop\\vuepress\\docs2\\docs\\about\\README.md"),
   "v-05724c62": () => import("C:\\Users\\HJJ\\Desktop\\vuepress\\docs2\\docs\\about\\bbb.md"),
-  "v-f0de55fc": () => import("C:\\Users\\HJJ\\Desktop\\vuepress\\docs2\\docs\\about\\c.md"),
   "v-6c857b13": () => import("C:\\Users\\HJJ\\Desktop\\vuepress\\docs2\\docs\\about1.md"),
+  "v-f0de55fc": () => import("C:\\Users\\HJJ\\Desktop\\vuepress\\docs2\\docs\\about\\c.md"),
+  "v-6e4ba0af": () => import("C:\\Users\\HJJ\\Desktop\\vuepress\\docs2\\docs\\article.md"),
   "v-4fcc3191": () => import("C:\\Users\\HJJ\\Desktop\\vuepress\\docs2\\docs\\about2.md") 
 }
