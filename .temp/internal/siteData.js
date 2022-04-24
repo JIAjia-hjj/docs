@@ -10,7 +10,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/favicon.ico"
+        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/favicon.ico"
       }
     ],
     [
@@ -31,7 +31,7 @@ export const siteData = {
       "link",
       {
         "rel": "manifest",
-        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/manifest.json"
+        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/manifest.json"
       }
     ],
     [
@@ -59,14 +59,14 @@ export const siteData = {
       "link",
       {
         "rel": "apple-touch-icon",
-        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/icons/apple-touch-icon-152x152.png"
+        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/icons/apple-touch-icon-152x152.png"
       }
     ],
     [
       "link",
       {
         "rel": "mask-icon",
-        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/icons/safari-pinned-tab.svg",
+        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/icons/safari-pinned-tab.svg",
         "color": "#3eaf7c"
       }
     ],
@@ -98,6 +98,30 @@ export const siteData = {
     ]
   ],
   "pages": [
+    {
+      "title": "about,",
+      "frontmatter": {
+        "title": "about,"
+      },
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-5c9895dd",
+      "path": "/about/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题1.html",
+          "slug": "标题1-html"
+        },
+        {
+          "level": 2,
+          "title": "标题2.html",
+          "slug": "标题2-html"
+        }
+      ],
+      "lastUpdated": "2022-04-22 10:22:56",
+      "lastUpdatedTimestamp": 1650637376000
+    },
     {
       "title": "Home",
       "frontmatter": {
@@ -137,14 +161,14 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650709151000
     },
     {
-      "title": "about,",
+      "title": "about---a",
       "frontmatter": {
-        "title": "about,"
+        "title": "about---a"
       },
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-5c9895dd",
-      "path": "/about/",
+      "regularPath": "/about/a.html",
+      "relativePath": "about/a.md",
+      "key": "v-3a59307c",
+      "path": "/about/a.html",
       "headers": [
         {
           "level": 2,
@@ -161,14 +185,52 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650637376000
     },
     {
-      "title": "about---a",
+      "title": "about---c",
       "frontmatter": {
-        "title": "about---a"
+        "0": "t",
+        "1": "i",
+        "2": "t",
+        "3": "l",
+        "4": "e",
+        "5": ":",
+        "6": "a",
+        "7": "b",
+        "8": "o",
+        "9": "u",
+        "10": "t",
+        "11": "-",
+        "12": "-",
+        "13": "-",
+        "14": "c"
       },
-      "regularPath": "/about/a.html",
-      "relativePath": "about/a.md",
-      "key": "v-3a59307c",
-      "path": "/about/a.html",
+      "regularPath": "/about/c.html",
+      "relativePath": "about/c.md",
+      "key": "v-f0de55fc",
+      "path": "/about/c.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题1.html",
+          "slug": "标题1-html"
+        },
+        {
+          "level": 2,
+          "title": "标题2.html",
+          "slug": "标题2-html"
+        }
+      ],
+      "lastUpdated": "2022-04-22 10:22:56",
+      "lastUpdatedTimestamp": 1650637376000
+    },
+    {
+      "title": "about---b",
+      "frontmatter": {
+        "title": "about---b"
+      },
+      "regularPath": "/about/bbb.html",
+      "relativePath": "about/bbb.md",
+      "key": "v-05724c62",
+      "path": "/about/bbb.html",
       "headers": [
         {
           "level": 2,
@@ -209,14 +271,14 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650709151000
     },
     {
-      "title": "about---b",
+      "title": "about2",
       "frontmatter": {
-        "title": "about---b"
+        "title": "about2"
       },
-      "regularPath": "/about/bbb.html",
-      "relativePath": "about/bbb.md",
-      "key": "v-05724c62",
-      "path": "/about/bbb.html",
+      "regularPath": "/about2.html",
+      "relativePath": "about2.md",
+      "key": "v-4fcc3191",
+      "path": "/about2.html",
       "headers": [
         {
           "level": 2,
@@ -227,10 +289,15 @@ export const siteData = {
           "level": 2,
           "title": "标题2.html",
           "slug": "标题2-html"
+        },
+        {
+          "level": 2,
+          "title": "github action",
+          "slug": "github-action"
         }
       ],
-      "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
+      "lastUpdated": "2022-04-23 6:19:11",
+      "lastUpdatedTimestamp": 1650709151000
     },
     {
       "title": "很长的文章啊",
@@ -787,68 +854,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650779636000
     },
     {
-      "title": "about---c",
-      "frontmatter": {
-        "0": "t",
-        "1": "i",
-        "2": "t",
-        "3": "l",
-        "4": "e",
-        "5": ":",
-        "6": "a",
-        "7": "b",
-        "8": "o",
-        "9": "u",
-        "10": "t",
-        "11": "-",
-        "12": "-",
-        "13": "-",
-        "14": "c"
-      },
-      "regularPath": "/about/c.html",
-      "relativePath": "about/c.md",
-      "key": "v-f0de55fc",
-      "path": "/about/c.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题1.html",
-          "slug": "标题1-html"
-        },
-        {
-          "level": 2,
-          "title": "标题2.html",
-          "slug": "标题2-html"
-        }
-      ],
-      "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
-    },
-    {
-      "title": "about2",
-      "frontmatter": {
-        "title": "about2"
-      },
-      "regularPath": "/about2.html",
-      "relativePath": "about2.md",
-      "key": "v-4fcc3191",
-      "path": "/about2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题1.html",
-          "slug": "标题1-html"
-        },
-        {
-          "level": 2,
-          "title": "标题2.html",
-          "slug": "标题2-html"
-        }
-      ],
-      "lastUpdated": "2022-04-23 6:19:11",
-      "lastUpdatedTimestamp": 1650709151000
-    },
-    {
       "title": "countup 第三方组件",
       "frontmatter": {
         "titlt": "countup第三方组件"
@@ -863,7 +868,9 @@ export const siteData = {
           "title": "追加Travis Cli 自动化",
           "slug": "追加travis-cli-自动化"
         }
-      ]
+      ],
+      "lastUpdated": "2022-04-24 5:04:46",
+      "lastUpdatedTimestamp": 1650791086000
     }
   ],
   "themeConfig": {
