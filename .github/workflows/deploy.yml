@@ -60,22 +60,46 @@
 #           FOLDER: docs/.vuepress/dist
 #           # 当前仓库的密钥
 #           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+# name: GitHub Actions Build and Deploy Demo
+# on:
+#   push:
+#     branches:
+#       - main
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Checkout
+#       uses: actions/checkout@master
+
+#     - name: Build and Deploy
+#       uses: JamesIves/github-pages-deploy-action@v2
+#       env:
+#         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#         BRANCH: gh-pages
+#         FOLDER: docs/.vuepress/dist
+#         BUILD_SCRIPT: npm ci && npm run docs:build
+
 name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
-
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@v2
-      env:
+      uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+      with:
+        persist-credentials: false
+    - name: Install and Build
+      run: |
+        npm ci
+        npm run docs:build
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
-        BUILD_SCRIPT: npm ci && npm run docs:build
