@@ -20,6 +20,6 @@
     // ],
     module.exports ={
         "/about/":["","a","bbb","c"],
-        "/": ["","about1","about2","article"],
+        "/": ["","about1","about2","article","countup"],
   
       }
