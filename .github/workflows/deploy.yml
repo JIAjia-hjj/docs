@@ -21,7 +21,7 @@ jobs:
         run: yarn docs:build  # npm run docs:build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
+        env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: docs/.vuepress/dist # The folder the action should deploy.
