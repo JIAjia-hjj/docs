@@ -147,8 +147,8 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: username/repo
-        TARGET_BRANCH: master
+        # TARGET_REPO: username/repo
+        TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn install && yarn docs:build
         BUILD_DIR: docs/.vuepress/dist
         CNAME: yarn cname
