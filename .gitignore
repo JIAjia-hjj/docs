@@ -6,6 +6,6 @@ dist
 .vuepress/dist
 .serverless/
 
-
+.vscode
 # 隐私私密信息
 secret.js
