@@ -3,7 +3,7 @@ node_modules
 .nuxt
 dist
 .cache/
-.vuepress/dist
+# .vuepress/dist
 .serverless/
 
 .vscode
