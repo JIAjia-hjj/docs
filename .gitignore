@@ -6,7 +6,7 @@ node_modules
 
 .serverless/
 # vuepress
-docs/.vuepress/dist
+# docs/.vuepress/dist
 .vscode
 # 隐私私密信息
 # secret.js
