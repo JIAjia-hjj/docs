@@ -15,6 +15,8 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-
+<!-- [![Build Status](https://app.travis-ci.com/jiajia-hjj/vuepress.svg?branch=main)](https://app.travis-ci.com/jiajia-hjj/vuepress) -->
+[![GitHub issues](https://img.shields.io/github/issues/jiajia-hjj/docs)](https://github.com/jiajia-hjj/docs/issues)
+[![GitHub stars](https://img.shields.io/github/stars/jiajia-hjj/docs)](https://github.com/jiajia-hjj/docs/stargazers)
 ## pwa
 为了演示弹窗效果的内容  hahhhaha  LLLLL   tttt 111 1111 hahhahhhah
