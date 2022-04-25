@@ -10,7 +10,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/favicon.ico"
+        "href": "/docs/favicon.ico"
       }
     ],
     [
@@ -31,7 +31,7 @@ export const siteData = {
       "link",
       {
         "rel": "manifest",
-        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/manifest.json"
+        "href": "/docs/manifest.json"
       }
     ],
     [
@@ -59,14 +59,14 @@ export const siteData = {
       "link",
       {
         "rel": "apple-touch-icon",
-        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/icons/apple-touch-icon-152x152.png"
+        "href": "/docs/icons/apple-touch-icon-152x152.png"
       }
     ],
     [
       "link",
       {
         "rel": "mask-icon",
-        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/icons/safari-pinned-tab.svg",
+        "href": "/docs/icons/safari-pinned-tab.svg",
         "color": "#3eaf7c"
       }
     ],
@@ -98,30 +98,6 @@ export const siteData = {
     ]
   ],
   "pages": [
-    {
-      "title": "about,",
-      "frontmatter": {
-        "title": "about,"
-      },
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-5c9895dd",
-      "path": "/about/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题1.html",
-          "slug": "标题1-html"
-        },
-        {
-          "level": 2,
-          "title": "标题2.html",
-          "slug": "标题2-html"
-        }
-      ],
-      "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
-    },
     {
       "title": "Home",
       "frontmatter": {
@@ -157,8 +133,32 @@ export const siteData = {
           "slug": "pwa"
         }
       ],
-      "lastUpdated": "2022-04-23 6:19:11",
-      "lastUpdatedTimestamp": 1650709151000
+      "lastUpdated": "2022-04-25 9:44:00",
+      "lastUpdatedTimestamp": 1650851040000
+    },
+    {
+      "title": "about,",
+      "frontmatter": {
+        "title": "about,"
+      },
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-5c9895dd",
+      "path": "/about/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题1.html",
+          "slug": "标题1-html"
+        },
+        {
+          "level": 2,
+          "title": "标题2.html",
+          "slug": "标题2-html"
+        }
+      ],
+      "lastUpdated": "2022-04-22 10:22:56",
+      "lastUpdatedTimestamp": 1650637376000
     },
     {
       "title": "about---a",
@@ -169,6 +169,30 @@ export const siteData = {
       "relativePath": "about/a.md",
       "key": "v-3a59307c",
       "path": "/about/a.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题1.html",
+          "slug": "标题1-html"
+        },
+        {
+          "level": 2,
+          "title": "标题2.html",
+          "slug": "标题2-html"
+        }
+      ],
+      "lastUpdated": "2022-04-22 10:22:56",
+      "lastUpdatedTimestamp": 1650637376000
+    },
+    {
+      "title": "about---b",
+      "frontmatter": {
+        "title": "about---b"
+      },
+      "regularPath": "/about/bbb.html",
+      "relativePath": "about/bbb.md",
+      "key": "v-05724c62",
+      "path": "/about/bbb.html",
       "headers": [
         {
           "level": 2,
@@ -207,30 +231,6 @@ export const siteData = {
       "relativePath": "about/c.md",
       "key": "v-f0de55fc",
       "path": "/about/c.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题1.html",
-          "slug": "标题1-html"
-        },
-        {
-          "level": 2,
-          "title": "标题2.html",
-          "slug": "标题2-html"
-        }
-      ],
-      "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
-    },
-    {
-      "title": "about---b",
-      "frontmatter": {
-        "title": "about---b"
-      },
-      "regularPath": "/about/bbb.html",
-      "relativePath": "about/bbb.md",
-      "key": "v-05724c62",
-      "path": "/about/bbb.html",
       "headers": [
         {
           "level": 2,
@@ -296,8 +296,8 @@ export const siteData = {
           "slug": "github-action"
         }
       ],
-      "lastUpdated": "2022-04-23 6:19:11",
-      "lastUpdatedTimestamp": 1650709151000
+      "lastUpdated": "2022-04-24 9:09:19",
+      "lastUpdatedTimestamp": 1650805759000
     },
     {
       "title": "很长的文章啊",

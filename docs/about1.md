@@ -7,3 +7,6 @@ title: about1
 
 # Vssue Demo
 
+<img :src="$withBase('/favicon.ico')" alt="favicon">
+
+![favicon.ico](/favicon.ico)
