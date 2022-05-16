@@ -3,8 +3,9 @@
 
 const headConfig=require('./config/headConfig');
 const pluginsConfig=require('./config/pluginsConfig');
-const navConfig=require('./config/navConfig');
-const sidebarConfig=require('./config/sidebarConfig');
+// const navConfig=require('./config/navConfig');
+// const sidebarConfig=require('./config/sidebarConfig');
+const nav=require("./nav.js");
 module.exports = {
   base: "/docs/",
   title: "HHH",
@@ -15,7 +16,8 @@ module.exports = {
     lastUpdated: "更新时间", // string | boolean
     //   logo: '/assets/img/logo.png',
     // 导航
-    nav:navConfig,
-    sidebar:sidebarConfig,
+    // nav:navConfig,
+    nav
+    // sidebar:sidebarConfig,
   },
 };

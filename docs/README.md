@@ -19,10 +19,10 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 [![GitHub issues](https://img.shields.io/github/issues/jiajia-hjj/docs)](https://github.com/jiajia-hjj/docs/issues)
 [![GitHub stars](https://img.shields.io/github/stars/jiajia-hjj/docs)](https://github.com/jiajia-hjj/docs/stargazers)
 
-
 ![Custom badge](https://img.shields.io/static/v1?label=你好&message=<MESSAGE>&color=green)
 
-
 ![Custom badge](https://img.shields.io/badge/dynamic/json?url=<URL>&label=<LABEL>&query=<$.DATA.SUBDATA>&color=<COLOR>&prefix=<PREFIX>&suffix=<SUFFIX>)
+
 ## pwa
-为了演示弹窗效果的内容  hahhhaha  LLLLL   tttt 111 1111 hahhahhhah
+
+为了演示弹窗效果的内容 hahhhaha LLLLL tttt 111 1111 hahhahhhah

@@ -4,28 +4,244 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "C:\\Users\\HJJ\\Desktop\\vuepress\\docs2\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "E:\\04-学习\\DemoCode\\VuePress\\docs2\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-3b10cf2c",
-    path: "/",
+    name: "v-2d1785d8",
+    path: "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b10cf2c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2d1785d8").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    path: "/05-css/DIV水平垂直居中/大屏适配方案.html",
+    redirect: "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html"
   },
   {
-    name: "v-5c9895dd",
+    path: "/05-css/DIV水平垂直居中/大屏适配方案.html",
+    redirect: "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html"
+  },
+  {
+    name: "v-0ab70fcc",
+    path: "/05-css/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0ab70fcc").then(next)
+    },
+  },
+  {
+    path: "/05-css/index.html",
+    redirect: "/05-css/"
+  },
+  {
+    name: "v-2a5228f4",
+    path: "/05-css/CSS%E9%AB%98%E7%BA%A7%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2a5228f4").then(next)
+    },
+  },
+  {
+    path: "/05-css/CSS高级常见技巧汇总.html",
+    redirect: "/05-css/CSS%E9%AB%98%E7%BA%A7%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB.html"
+  },
+  {
+    path: "/05-css/CSS高级常见技巧汇总.html",
+    redirect: "/05-css/CSS%E9%AB%98%E7%BA%A7%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB.html"
+  },
+  {
+    name: "v-ae43d944",
+    path: "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ae43d944").then(next)
+    },
+  },
+  {
+    path: "/05-css/DIV水平垂直居中/retina屏幕1px边框问题.html",
+    redirect: "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html"
+  },
+  {
+    path: "/05-css/DIV水平垂直居中/retina屏幕1px边框问题.html",
+    redirect: "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html"
+  },
+  {
+    name: "v-27cf6b54",
+    path: "/05-css/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-27cf6b54").then(next)
+    },
+  },
+  {
+    path: "/05-css/大屏适配方案.html",
+    redirect: "/05-css/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html"
+  },
+  {
+    path: "/05-css/大屏适配方案.html",
+    redirect: "/05-css/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html"
+  },
+  {
+    name: "v-1703a073",
+    path: "/05-css/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88%20-%20%E5%89%AF%E6%9C%AC.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1703a073").then(next)
+    },
+  },
+  {
+    path: "/05-css/移动端适配方案 - 副本.html",
+    redirect: "/05-css/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88%20-%20%E5%89%AF%E6%9C%AC.html"
+  },
+  {
+    path: "/05-css/移动端适配方案 - 副本.html",
+    redirect: "/05-css/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88%20-%20%E5%89%AF%E6%9C%AC.html"
+  },
+  {
+    name: "v-3923b5ba",
+    path: "/05-css/%E8%AE%BE%E7%BD%AEinput.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3923b5ba").then(next)
+    },
+  },
+  {
+    path: "/05-css/设置input.html",
+    redirect: "/05-css/%E8%AE%BE%E7%BD%AEinput.html"
+  },
+  {
+    path: "/05-css/设置input.html",
+    redirect: "/05-css/%E8%AE%BE%E7%BD%AEinput.html"
+  },
+  {
+    name: "v-2b825978",
+    path: "/05-css/css%20%E5%AE%9E%E7%8E%B0%E4%B8%8A%E5%8F%B3%E4%B8%8B%E5%B7%A6%E4%B8%89%E8%A7%92.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2b825978").then(next)
+    },
+  },
+  {
+    path: "/05-css/css 实现上右下左三角.html",
+    redirect: "/05-css/css%20%E5%AE%9E%E7%8E%B0%E4%B8%8A%E5%8F%B3%E4%B8%8B%E5%B7%A6%E4%B8%89%E8%A7%92.html"
+  },
+  {
+    path: "/05-css/css 实现上右下左三角.html",
+    redirect: "/05-css/css%20%E5%AE%9E%E7%8E%B0%E4%B8%8A%E5%8F%B3%E4%B8%8B%E5%B7%A6%E4%B8%89%E8%A7%92.html"
+  },
+  {
+    name: "v-af205296",
+    path: "/05-css/%E9%9A%90%E8%97%8F%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%88%96%E6%9B%B4%E6%94%B9%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%A0%B7%E5%BC%8F.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-af205296").then(next)
+    },
+  },
+  {
+    path: "/05-css/隐藏滚动条或更改滚动条样式.html",
+    redirect: "/05-css/%E9%9A%90%E8%97%8F%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%88%96%E6%9B%B4%E6%94%B9%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%A0%B7%E5%BC%8F.html"
+  },
+  {
+    path: "/05-css/隐藏滚动条或更改滚动条样式.html",
+    redirect: "/05-css/%E9%9A%90%E8%97%8F%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%88%96%E6%9B%B4%E6%94%B9%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%A0%B7%E5%BC%8F.html"
+  },
+  {
+    name: "v-17b1b6fe",
+    path: "/05-css/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-17b1b6fe").then(next)
+    },
+  },
+  {
+    path: "/05-css/retina屏幕1px边框问题.html",
+    redirect: "/05-css/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html"
+  },
+  {
+    path: "/05-css/retina屏幕1px边框问题.html",
+    redirect: "/05-css/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html"
+  },
+  {
+    name: "v-1265eb6c",
+    path: "/06-js/00-es6/es6.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1265eb6c").then(next)
+    },
+  },
+  {
+    name: "v-74e177e2",
+    path: "/06-js/00-es6/es6%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-74e177e2").then(next)
+    },
+  },
+  {
+    path: "/06-js/00-es6/es6箭头函数.html",
+    redirect: "/06-js/00-es6/es6%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0.html"
+  },
+  {
+    path: "/06-js/00-es6/es6箭头函数.html",
+    redirect: "/06-js/00-es6/es6%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0.html"
+  },
+  {
+    name: "v-0d99763f",
+    path: "/06-js/00-es6/async%E5%87%BD%E6%95%B0.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0d99763f").then(next)
+    },
+  },
+  {
+    path: "/06-js/00-es6/async函数.html",
+    redirect: "/06-js/00-es6/async%E5%87%BD%E6%95%B0.html"
+  },
+  {
+    path: "/06-js/00-es6/async函数.html",
+    redirect: "/06-js/00-es6/async%E5%87%BD%E6%95%B0.html"
+  },
+  {
+    name: "v-56416e0b",
+    path: "/06-js/js%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-56416e0b").then(next)
+    },
+  },
+  {
+    path: "/06-js/js内置对象.html",
+    redirect: "/06-js/js%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html"
+  },
+  {
+    path: "/06-js/js内置对象.html",
+    redirect: "/06-js/js%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html"
+  },
+  {
+    name: "v-0555ccf4",
+    path: "/06-js/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0555ccf4").then(next)
+    },
+  },
+  {
+    path: "/06-js/js数据类型.html",
+    redirect: "/06-js/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.html"
+  },
+  {
+    path: "/06-js/js数据类型.html",
+    redirect: "/06-js/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.html"
+  },
+  {
+    name: "v-27bd8008",
     path: "/about/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5c9895dd").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-27bd8008").then(next)
     },
   },
   {
@@ -33,60 +249,88 @@ export const routes = [
     redirect: "/about/"
   },
   {
-    name: "v-3a59307c",
-    path: "/about/a.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3a59307c").then(next)
-    },
-  },
-  {
-    name: "v-05724c62",
+    name: "v-28300517",
     path: "/about/bbb.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-05724c62").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-28300517").then(next)
     },
   },
   {
-    name: "v-f0de55fc",
+    name: "v-21093037",
     path: "/about/c.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f0de55fc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-21093037").then(next)
     },
   },
   {
-    name: "v-6c857b13",
+    name: "v-7c4bc2f7",
+    path: "/about/a.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7c4bc2f7").then(next)
+    },
+  },
+  {
+    name: "v-7b551f88",
     path: "/about1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6c857b13").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7b551f88").then(next)
     },
   },
   {
-    name: "v-4fcc3191",
-    path: "/about2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4fcc3191").then(next)
-    },
-  },
-  {
-    name: "v-6e4ba0af",
-    path: "/article.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6e4ba0af").then(next)
-    },
-  },
-  {
-    name: "v-09c3f12f",
+    name: "v-b9876738",
     path: "/countup.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-09c3f12f").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b9876738").then(next)
     },
+  },
+  {
+    name: "v-5e9bd606",
+    path: "/about2.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5e9bd606").then(next)
+    },
+  },
+  {
+    name: "v-07c3fbe4",
+    path: "/article.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-07c3fbe4").then(next)
+    },
+  },
+  {
+    name: "v-09fb61d7",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-09fb61d7").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-d03e34da",
+    path: "/06-js/js%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d03e34da").then(next)
+    },
+  },
+  {
+    path: "/06-js/js面向对象.html",
+    redirect: "/06-js/js%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
+  },
+  {
+    path: "/06-js/js面向对象.html",
+    redirect: "/06-js/js%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
   },
   {
     path: '*',

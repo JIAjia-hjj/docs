@@ -99,42 +99,542 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
+      "title": "移动端适配谷朊粉",
+      "frontmatter": {},
+      "regularPath": "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html",
+      "relativePath": "05-css/DIV水平垂直居中/大屏适配方案.md",
+      "key": "v-2d1785d8",
+      "path": "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html"
+    },
+    {
+      "title": "about,",
       "frontmatter": {
-        "home": true,
-        "heroText": "Hero 标题",
-        "tagline": "Hero 副标题",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+        "title": "about,"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-3b10cf2c",
-      "path": "/",
+      "regularPath": "/05-css/",
+      "relativePath": "05-css/README.md",
+      "key": "v-0ab70fcc",
+      "path": "/05-css/",
       "headers": [
         {
           "level": 2,
-          "title": "pwa",
-          "slug": "pwa"
+          "title": "标题1.html",
+          "slug": "标题1-html"
+        },
+        {
+          "level": 2,
+          "title": "标题2.html",
+          "slug": "标题2-html"
         }
-      ],
-      "lastUpdated": "2022-04-25 9:44:00",
-      "lastUpdatedTimestamp": 1650851040000
+      ]
+    },
+    {
+      "title": "CSS常见技巧汇总",
+      "frontmatter": {},
+      "regularPath": "/05-css/CSS%E9%AB%98%E7%BA%A7%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB.html",
+      "relativePath": "05-css/CSS高级常见技巧汇总.md",
+      "key": "v-2a5228f4",
+      "path": "/05-css/CSS%E9%AB%98%E7%BA%A7%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1、设置input",
+          "slug": "_1、设置input"
+        },
+        {
+          "level": 2,
+          "title": "2、单行和多行文本超出省略号",
+          "slug": "_2、单行和多行文本超出省略号"
+        },
+        {
+          "level": 2,
+          "title": "3、负边距使用技巧",
+          "slug": "_3、负边距使用技巧"
+        },
+        {
+          "level": 2,
+          "title": "4、outline属性的妙用技巧",
+          "slug": "_4、outline属性的妙用技巧"
+        },
+        {
+          "level": 2,
+          "title": "5、虚线框绘制技巧",
+          "slug": "_5、虚线框绘制技巧"
+        },
+        {
+          "level": 2,
+          "title": "6、隐藏文本的常用两种方法",
+          "slug": "_6、隐藏文本的常用两种方法"
+        },
+        {
+          "level": 2,
+          "title": "7、表格",
+          "slug": "_7、表格"
+        },
+        {
+          "level": 2,
+          "title": "8、卡券效果制作",
+          "slug": "_8、卡券效果制作"
+        }
+      ]
+    },
+    {
+      "title": "解决移动端 Retina 屏幕 1px 边框问题",
+      "frontmatter": {},
+      "regularPath": "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html",
+      "relativePath": "05-css/DIV水平垂直居中/retina屏幕1px边框问题.md",
+      "key": "v-ae43d944",
+      "path": "/05-css/DIV%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、概念",
+          "slug": "一、概念"
+        },
+        {
+          "level": 2,
+          "title": "二、造成边框变粗的原因",
+          "slug": "二、造成边框变粗的原因"
+        },
+        {
+          "level": 2,
+          "title": "三、解决边框变粗的8种办法",
+          "slug": "三、解决边框变粗的8种办法"
+        },
+        {
+          "level": 3,
+          "title": "1、0.5px边框",
+          "slug": "_1、0-5px边框"
+        },
+        {
+          "level": 3,
+          "title": "2、border-image",
+          "slug": "_2、border-image"
+        },
+        {
+          "level": 3,
+          "title": "3、background-image",
+          "slug": "_3、background-image"
+        },
+        {
+          "level": 3,
+          "title": "4、多背景渐变实现",
+          "slug": "_4、多背景渐变实现"
+        },
+        {
+          "level": 3,
+          "title": "5、使用box-shadow模拟边框",
+          "slug": "_5、使用box-shadow模拟边框"
+        },
+        {
+          "level": 3,
+          "title": "6、viewport + rem",
+          "slug": "_6、viewport-rem"
+        },
+        {
+          "level": 3,
+          "title": "7、伪类 + transform",
+          "slug": "_7、伪类-transform"
+        },
+        {
+          "level": 3,
+          "title": "8、svg",
+          "slug": "_8、svg"
+        },
+        {
+          "level": 2,
+          "title": "四、总结",
+          "slug": "四、总结"
+        }
+      ]
+    },
+    {
+      "title": "移动端适配谷朊粉",
+      "frontmatter": {},
+      "regularPath": "/05-css/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html",
+      "relativePath": "05-css/大屏适配方案.md",
+      "key": "v-27cf6b54",
+      "path": "/05-css/%E5%A4%A7%E5%B1%8F%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88.html"
+    },
+    {
+      "title": "移动端适配谷朊粉",
+      "frontmatter": {},
+      "regularPath": "/05-css/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88%20-%20%E5%89%AF%E6%9C%AC.html",
+      "relativePath": "05-css/移动端适配方案 - 副本.md",
+      "key": "v-1703a073",
+      "path": "/05-css/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88%20-%20%E5%89%AF%E6%9C%AC.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/05-css/%E8%AE%BE%E7%BD%AEinput.html",
+      "relativePath": "05-css/设置input.md",
+      "key": "v-3923b5ba",
+      "path": "/05-css/%E8%AE%BE%E7%BD%AEinput.html"
+    },
+    {
+      "title": "css 绘制三角形",
+      "frontmatter": {},
+      "regularPath": "/05-css/css%20%E5%AE%9E%E7%8E%B0%E4%B8%8A%E5%8F%B3%E4%B8%8B%E5%B7%A6%E4%B8%89%E8%A7%92.html",
+      "relativePath": "05-css/css 实现上右下左三角.md",
+      "key": "v-2b825978",
+      "path": "/05-css/css%20%E5%AE%9E%E7%8E%B0%E4%B8%8A%E5%8F%B3%E4%B8%8B%E5%B7%A6%E4%B8%89%E8%A7%92.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "右三角",
+          "slug": "右三角"
+        },
+        {
+          "level": 2,
+          "title": "左三角",
+          "slug": "左三角"
+        },
+        {
+          "level": 2,
+          "title": "下三角",
+          "slug": "下三角"
+        },
+        {
+          "level": 2,
+          "title": "上三角",
+          "slug": "上三角"
+        }
+      ]
+    },
+    {
+      "title": "隐藏滚动条或更改滚动条样式",
+      "frontmatter": {},
+      "regularPath": "/05-css/%E9%9A%90%E8%97%8F%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%88%96%E6%9B%B4%E6%94%B9%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%A0%B7%E5%BC%8F.html",
+      "relativePath": "05-css/隐藏滚动条或更改滚动条样式.md",
+      "key": "v-af205296",
+      "path": "/05-css/%E9%9A%90%E8%97%8F%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%88%96%E6%9B%B4%E6%94%B9%E6%BB%9A%E5%8A%A8%E6%9D%A1%E6%A0%B7%E5%BC%8F.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "隐藏滚动条或更改滚动条样式",
+          "slug": "隐藏滚动条或更改滚动条样式"
+        }
+      ]
+    },
+    {
+      "title": "解决移动端 Retina 屏幕 1px 边框问题",
+      "frontmatter": {},
+      "regularPath": "/05-css/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html",
+      "relativePath": "05-css/retina屏幕1px边框问题.md",
+      "key": "v-17b1b6fe",
+      "path": "/05-css/retina%E5%B1%8F%E5%B9%951px%E8%BE%B9%E6%A1%86%E9%97%AE%E9%A2%98.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、概念",
+          "slug": "一、概念"
+        },
+        {
+          "level": 2,
+          "title": "二、造成边框变粗的原因",
+          "slug": "二、造成边框变粗的原因"
+        },
+        {
+          "level": 2,
+          "title": "三、解决边框变粗的8种办法",
+          "slug": "三、解决边框变粗的8种办法"
+        },
+        {
+          "level": 3,
+          "title": "1、0.5px边框",
+          "slug": "_1、0-5px边框"
+        },
+        {
+          "level": 3,
+          "title": "2、border-image",
+          "slug": "_2、border-image"
+        },
+        {
+          "level": 3,
+          "title": "3、background-image",
+          "slug": "_3、background-image"
+        },
+        {
+          "level": 3,
+          "title": "4、多背景渐变实现",
+          "slug": "_4、多背景渐变实现"
+        },
+        {
+          "level": 3,
+          "title": "5、使用box-shadow模拟边框",
+          "slug": "_5、使用box-shadow模拟边框"
+        },
+        {
+          "level": 3,
+          "title": "6、viewport + rem",
+          "slug": "_6、viewport-rem"
+        },
+        {
+          "level": 3,
+          "title": "7、伪类 + transform",
+          "slug": "_7、伪类-transform"
+        },
+        {
+          "level": 3,
+          "title": "8、svg",
+          "slug": "_8、svg"
+        },
+        {
+          "level": 2,
+          "title": "四、总结",
+          "slug": "四、总结"
+        }
+      ]
+    },
+    {
+      "title": "兼容性",
+      "frontmatter": {},
+      "regularPath": "/06-js/00-es6/es6.html",
+      "relativePath": "06-js/00-es6/es6.md",
+      "key": "v-1265eb6c",
+      "path": "/06-js/00-es6/es6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "兼容性",
+          "slug": "兼容性"
+        },
+        {
+          "level": 2,
+          "title": "let和const",
+          "slug": "let和const"
+        },
+        {
+          "level": 2,
+          "title": "解构赋值",
+          "slug": "解构赋值"
+        },
+        {
+          "level": 2,
+          "title": "字符串",
+          "slug": "字符串"
+        },
+        {
+          "level": 2,
+          "title": "json",
+          "slug": "json"
+        },
+        {
+          "level": 2,
+          "title": "",
+          "slug": ""
+        }
+      ]
+    },
+    {
+      "title": "es6函数-箭头函数",
+      "frontmatter": {},
+      "regularPath": "/06-js/00-es6/es6%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0.html",
+      "relativePath": "06-js/00-es6/es6箭头函数.md",
+      "key": "v-74e177e2",
+      "path": "/06-js/00-es6/es6%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "es6函数-箭头函数",
+          "slug": "es6函数-箭头函数"
+        },
+        {
+          "level": 3,
+          "title": "一、写法",
+          "slug": "一、写法"
+        },
+        {
+          "level": 3,
+          "title": "二、特点",
+          "slug": "二、特点"
+        }
+      ]
+    },
+    {
+      "title": "async",
+      "frontmatter": {},
+      "regularPath": "/06-js/00-es6/async%E5%87%BD%E6%95%B0.html",
+      "relativePath": "06-js/00-es6/async函数.md",
+      "key": "v-0d99763f",
+      "path": "/06-js/00-es6/async%E5%87%BD%E6%95%B0.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、基本使用",
+          "slug": "一、基本使用"
+        },
+        {
+          "level": 3,
+          "title": "返回值",
+          "slug": "返回值"
+        },
+        {
+          "level": 3,
+          "title": "await 表达式",
+          "slug": "await-表达式"
+        },
+        {
+          "level": 3,
+          "title": "应用",
+          "slug": "应用"
+        },
+        {
+          "level": 2,
+          "title": "二、async 函数的优点",
+          "slug": "二、async-函数的优点"
+        },
+        {
+          "level": 3,
+          "title": "2.1.对比于Generator",
+          "slug": "_2-1-对比于generator"
+        },
+        {
+          "level": 3,
+          "title": "2.2.对比于Promise",
+          "slug": "_2-2-对比于promise"
+        },
+        {
+          "level": 3,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
+      "title": "内置对象",
+      "frontmatter": {},
+      "regularPath": "/06-js/js%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html",
+      "relativePath": "06-js/js内置对象.md",
+      "key": "v-56416e0b",
+      "path": "/06-js/js%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "内置对象",
+          "slug": "内置对象"
+        },
+        {
+          "level": 3,
+          "title": "Math对象",
+          "slug": "math对象"
+        },
+        {
+          "level": 3,
+          "title": "Date对象",
+          "slug": "date对象"
+        },
+        {
+          "level": 3,
+          "title": "Array对象",
+          "slug": "array对象"
+        },
+        {
+          "level": 3,
+          "title": "正则表达式对象",
+          "slug": "正则表达式对象"
+        },
+        {
+          "level": 3,
+          "title": "String对象",
+          "slug": "string对象"
+        }
+      ]
+    },
+    {
+      "title": "JS中的数据类型",
+      "frontmatter": {},
+      "regularPath": "/06-js/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.html",
+      "relativePath": "06-js/js数据类型.md",
+      "key": "v-0555ccf4",
+      "path": "/06-js/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、JS中的数据类型",
+          "slug": "一、js中的数据类型"
+        },
+        {
+          "level": 3,
+          "title": "1.1.基本类型（值类型）",
+          "slug": "_1-1-基本类型-值类型"
+        },
+        {
+          "level": 3,
+          "title": "1.2.复杂类型（引用类型）",
+          "slug": "_1-2-复杂类型-引用类型"
+        },
+        {
+          "level": 3,
+          "title": "1.3.堆和栈",
+          "slug": "_1-3-堆和栈"
+        },
+        {
+          "level": 2,
+          "title": "二、JS类型检测方式",
+          "slug": "二、js类型检测方式"
+        },
+        {
+          "level": 3,
+          "title": "2.1.typeof：主要用于检测基本类型",
+          "slug": "_2-1-typeof-主要用于检测基本类型"
+        },
+        {
+          "level": 3,
+          "title": "2.2.instanceof：主要用于检测引用类型",
+          "slug": "_2-2-instanceof-主要用于检测引用类型"
+        },
+        {
+          "level": 3,
+          "title": "2.3.Object.prototype.toString.call()：",
+          "slug": "_2-3-object-prototype-tostring-call"
+        },
+        {
+          "level": 2,
+          "title": "三、值类型和引用类型在内存中的存储方式",
+          "slug": "三、值类型和引用类型在内存中的存储方式"
+        },
+        {
+          "level": 2,
+          "title": "四、值类型复制和引用类型复制",
+          "slug": "四、值类型复制和引用类型复制"
+        },
+        {
+          "level": 3,
+          "title": "4.1.深拷贝和浅拷贝",
+          "slug": "_4-1-深拷贝和浅拷贝"
+        },
+        {
+          "level": 2,
+          "title": "五、值类型和引用类型参数传递",
+          "slug": "五、值类型和引用类型参数传递"
+        },
+        {
+          "level": 2,
+          "title": "六、值类型与引用类型的差别",
+          "slug": "六、值类型与引用类型的差别"
+        },
+        {
+          "level": 2,
+          "title": "七、数据类型转换",
+          "slug": "七、数据类型转换"
+        },
+        {
+          "level": 3,
+          "title": "7.1.转换成字符串类型",
+          "slug": "_7-1-转换成字符串类型"
+        },
+        {
+          "level": 3,
+          "title": "7.2.转换成数值类型",
+          "slug": "_7-2-转换成数值类型"
+        },
+        {
+          "level": 3,
+          "title": "7.3.转换成布尔类型",
+          "slug": "_7-3-转换成布尔类型"
+        }
+      ]
     },
     {
       "title": "about,",
@@ -143,7 +643,7 @@ export const siteData = {
       },
       "regularPath": "/about/",
       "relativePath": "about/README.md",
-      "key": "v-5c9895dd",
+      "key": "v-27bd8008",
       "path": "/about/",
       "headers": [
         {
@@ -158,31 +658,8 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
-    },
-    {
-      "title": "about---a",
-      "frontmatter": {
-        "title": "about---a"
-      },
-      "regularPath": "/about/a.html",
-      "relativePath": "about/a.md",
-      "key": "v-3a59307c",
-      "path": "/about/a.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题1.html",
-          "slug": "标题1-html"
-        },
-        {
-          "level": 2,
-          "title": "标题2.html",
-          "slug": "标题2-html"
-        }
-      ],
-      "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
+      "lastUpdatedTimestamp": 1650637376000,
+      "createdTime": 1650637376000
     },
     {
       "title": "about---b",
@@ -191,7 +668,7 @@ export const siteData = {
       },
       "regularPath": "/about/bbb.html",
       "relativePath": "about/bbb.md",
-      "key": "v-05724c62",
+      "key": "v-28300517",
       "path": "/about/bbb.html",
       "headers": [
         {
@@ -206,7 +683,8 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
+      "lastUpdatedTimestamp": 1650637376000,
+      "createdTime": 1650637376000
     },
     {
       "title": "about---c",
@@ -229,7 +707,7 @@ export const siteData = {
       },
       "regularPath": "/about/c.html",
       "relativePath": "about/c.md",
-      "key": "v-f0de55fc",
+      "key": "v-21093037",
       "path": "/about/c.html",
       "headers": [
         {
@@ -244,7 +722,33 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2022-04-22 10:22:56",
-      "lastUpdatedTimestamp": 1650637376000
+      "lastUpdatedTimestamp": 1650637376000,
+      "createdTime": 1650637376000
+    },
+    {
+      "title": "about---a",
+      "frontmatter": {
+        "title": "about---a"
+      },
+      "regularPath": "/about/a.html",
+      "relativePath": "about/a.md",
+      "key": "v-7c4bc2f7",
+      "path": "/about/a.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题1.html",
+          "slug": "标题1-html"
+        },
+        {
+          "level": 2,
+          "title": "标题2.html",
+          "slug": "标题2-html"
+        }
+      ],
+      "lastUpdated": "2022-04-22 10:22:56",
+      "lastUpdatedTimestamp": 1650637376000,
+      "createdTime": 1650637376000
     },
     {
       "title": "about1",
@@ -253,7 +757,7 @@ export const siteData = {
       },
       "regularPath": "/about1.html",
       "relativePath": "about1.md",
-      "key": "v-6c857b13",
+      "key": "v-7b551f88",
       "path": "/about1.html",
       "headers": [
         {
@@ -267,8 +771,29 @@ export const siteData = {
           "slug": "标题2-html"
         }
       ],
-      "lastUpdated": "2022-04-23 6:19:11",
-      "lastUpdatedTimestamp": 1650709151000
+      "lastUpdated": "2022-04-25 10:04:44",
+      "lastUpdatedTimestamp": 1650852284000,
+      "createdTime": 1650637376000
+    },
+    {
+      "title": "countup 第三方组件",
+      "frontmatter": {
+        "titlt": "countup第三方组件"
+      },
+      "regularPath": "/countup.html",
+      "relativePath": "countup.md",
+      "key": "v-b9876738",
+      "path": "/countup.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "追加Travis Cli 自动化",
+          "slug": "追加travis-cli-自动化"
+        }
+      ],
+      "lastUpdated": "2022-04-24 5:04:46",
+      "lastUpdatedTimestamp": 1650791086000,
+      "createdTime": 1650791086000
     },
     {
       "title": "about2",
@@ -277,7 +802,7 @@ export const siteData = {
       },
       "regularPath": "/about2.html",
       "relativePath": "about2.md",
-      "key": "v-4fcc3191",
+      "key": "v-5e9bd606",
       "path": "/about2.html",
       "headers": [
         {
@@ -297,7 +822,8 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2022-04-24 9:09:19",
-      "lastUpdatedTimestamp": 1650805759000
+      "lastUpdatedTimestamp": 1650805759000,
+      "createdTime": 1650637376000
     },
     {
       "title": "很长的文章啊",
@@ -306,7 +832,7 @@ export const siteData = {
       },
       "regularPath": "/article.html",
       "relativePath": "article.md",
-      "key": "v-6e4ba0af",
+      "key": "v-07c3fbe4",
       "path": "/article.html",
       "headers": [
         {
@@ -851,59 +1377,202 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2022-04-24 1:53:56",
-      "lastUpdatedTimestamp": 1650779636000
+      "lastUpdatedTimestamp": 1650779636000,
+      "createdTime": 1650779636000
     },
     {
-      "title": "countup 第三方组件",
+      "title": "Home",
       "frontmatter": {
-        "titlt": "countup第三方组件"
+        "home": true,
+        "heroText": "Hero 标题",
+        "tagline": "Hero 副标题",
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
       },
-      "regularPath": "/countup.html",
-      "relativePath": "countup.md",
-      "key": "v-09c3f12f",
-      "path": "/countup.html",
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-09fb61d7",
+      "path": "/",
       "headers": [
         {
           "level": 2,
-          "title": "追加Travis Cli 自动化",
-          "slug": "追加travis-cli-自动化"
+          "title": "pwa",
+          "slug": "pwa"
         }
       ],
-      "lastUpdated": "2022-04-24 5:04:46",
-      "lastUpdatedTimestamp": 1650791086000
+      "lastUpdated": "2022-04-25 10:04:44",
+      "lastUpdatedTimestamp": 1650852284000,
+      "createdTime": 1650637376000
+    },
+    {
+      "title": "面向对象",
+      "frontmatter": {},
+      "regularPath": "/06-js/js%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html",
+      "relativePath": "06-js/js面向对象.md",
+      "key": "v-d03e34da",
+      "path": "/06-js/js%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、概念",
+          "slug": "一、概念"
+        },
+        {
+          "level": 2,
+          "title": "二、创建对象方式",
+          "slug": "二、创建对象方式"
+        },
+        {
+          "level": 2,
+          "title": "三、操作对象",
+          "slug": "三、操作对象"
+        },
+        {
+          "level": 2,
+          "title": "四、构造函数",
+          "slug": "四、构造函数"
+        },
+        {
+          "level": 3,
+          "title": "4.1.new关键字",
+          "slug": "_4-1-new关键字"
+        },
+        {
+          "level": 3,
+          "title": "4.2.和实例对象的关系",
+          "slug": "_4-2-和实例对象的关系"
+        },
+        {
+          "level": 3,
+          "title": "4.3.问题",
+          "slug": "_4-3-问题"
+        },
+        {
+          "level": 2,
+          "title": "五、原型",
+          "slug": "五、原型"
+        },
+        {
+          "level": 3,
+          "title": "5.1.prototype",
+          "slug": "_5-1-prototype"
+        },
+        {
+          "level": 3,
+          "title": "5.2.构造函数、实例、原型三者之间的关系",
+          "slug": "_5-2-构造函数、实例、原型三者之间的关系"
+        },
+        {
+          "level": 3,
+          "title": "5.3.原型链",
+          "slug": "_5-3-原型链"
+        },
+        {
+          "level": 3,
+          "title": "5.4.原型语法",
+          "slug": "_5-4-原型语法"
+        },
+        {
+          "level": 3,
+          "title": "5.5.使用建议",
+          "slug": "_5-5-使用建议"
+        },
+        {
+          "level": 2,
+          "title": "六、继承",
+          "slug": "六、继承"
+        },
+        {
+          "level": 3,
+          "title": "6.1.原型继承",
+          "slug": "_6-1-原型继承"
+        },
+        {
+          "level": 3,
+          "title": "6.2.借用构造函数",
+          "slug": "_6-2-借用构造函数"
+        },
+        {
+          "level": 3,
+          "title": "6.3.组合继承",
+          "slug": "_6-3-组合继承"
+        },
+        {
+          "level": 3,
+          "title": "6.4.拷贝继承",
+          "slug": "_6-4-拷贝继承"
+        },
+        {
+          "level": 2,
+          "title": "七、Objece",
+          "slug": "七、objece"
+        },
+        {
+          "level": 3,
+          "title": "静态成员",
+          "slug": "静态成员"
+        },
+        {
+          "level": 3,
+          "title": "实例成员",
+          "slug": "实例成员"
+        }
+      ]
     }
   ],
   "themeConfig": {
     "lastUpdated": "更新时间",
     "nav": [
       {
-        "text": "Home",
-        "link": "/"
+        "text": "05-css",
+        "items": [
+          {
+            "text": "05 Css",
+            "link": "/05-css/"
+          },
+          {
+            "text": "DIV水平垂直居中",
+            "link": "/05-css/DIV水平垂直居中/"
+          }
+        ]
       },
       {
-        "text": "aboout",
-        "link": "/about/",
-        "rel": ""
+        "text": "06-js",
+        "items": [
+          {
+            "text": "00 Es6",
+            "link": "/06-js/00-es6/"
+          },
+          {
+            "text": "06 Js",
+            "link": "/06-js/"
+          }
+        ]
       },
       {
-        "text": "my",
-        "link": "https://google.com"
+        "text": "about",
+        "items": [
+          {
+            "text": "About",
+            "link": "/about/"
+          }
+        ]
       }
-    ],
-    "sidebar": {
-      "/about/": [
-        "",
-        "a",
-        "bbb",
-        "c"
-      ],
-      "/": [
-        "",
-        "about1",
-        "about2",
-        "article",
-        "countup"
-      ]
-    }
+    ]
   }
 }

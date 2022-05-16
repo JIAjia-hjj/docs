@@ -7,7 +7,8 @@
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
-    "cname":"bash cname.sh"
+    "cname": "bash cname.sh",
+    "docs:nav": "vuepress nav docs"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,10 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-google-analytics": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
     "@vuepress/plugin-pwa": "^1.9.7",
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
   },
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.7",
